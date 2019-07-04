@@ -908,5 +908,13 @@ blockquote {
 .filter-controls li.active {
   font-weight: bold;
 }
+.appicon{
+  max-width:50px;
+  max-height:50px;
+}
+
+.appstore{
+  margin-top: 20px;
+}
 
 /*# sourceMappingURL=maps/style.css.map */
