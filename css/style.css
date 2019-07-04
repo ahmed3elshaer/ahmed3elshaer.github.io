@@ -8,7 +8,8 @@ VERSION:	Versoin Number
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
 /*  typography */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @font-face {
   font-family: 'BwNistaInt-xBd';
   src: url("../plugins/fonts/BwNistaInt-xBd.woff") format("woff");
@@ -18,7 +19,7 @@ VERSION:	Versoin Number
 
 body {
   line-height: 1.2;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c;
@@ -29,16 +30,17 @@ p, .paragraph {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p-lg, .paragraph-lg {
   font-size: 22px;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", serif;
+  font-family: 'Space Mono', monospace;
   line-height: 1.2;
 }
 
