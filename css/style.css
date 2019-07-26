@@ -26,13 +26,22 @@ body {
 }
 
 p, .paragraph {
-  font-weight: 400;
-  color: #4c4c4c;
-  font-size: 15px;
+  font-weight: 550;
+  color: #000000;
+  font-size: 19px;
   line-height: 1.8;
   font-family: 'Open Sans', sans-serif;
 }
 
+
+.work-text {
+  font-weight: 450;
+  color: #000000;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  text-align: start;
+}
 p-lg, .paragraph-lg {
   font-size: 22px;
 
@@ -40,6 +49,7 @@ p-lg, .paragraph-lg {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
+  font-weight: bold;
   font-family: 'Space Mono', monospace;
   line-height: 1.2;
 }
@@ -134,6 +144,7 @@ h6, .h6 {
 .btn-transparent {
   background: transparent;
   color: #41228e;
+  font-family: 'Space Mono', monospace;
   font-weight: bold;
 }
 
@@ -909,12 +920,55 @@ blockquote {
   font-weight: bold;
 }
 .appicon{
-  max-width:50px;
-  max-height:50px;
+  max-width:80px;
+  max-height:80px;
 }
 
 .appstore{
   margin-top: 20px;
 }
+.portfolio{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
 
-/*# sourceMappingURL=maps/style.css.map */
+.dot {
+  color: #5351CC;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Space Mono', monospace;
+}
+
+.tech-text {
+  font-weight: 550;
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: 'Open Sans', sans-serif;
+}
+.playIcon{
+  max-width:120px;
+  max-height:80px;
+}
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Space Mono', monospace;
+}
+
+.outline {
+  border-color: white;
+  color: white;
+  background-color: transparent;
+}
+.outline:hover {
+  background-color: white;
+  color: #36187F
+}
