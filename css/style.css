@@ -457,9 +457,14 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: "BwNistaInt-xBd";
+  font-family: 'Space Mono', monospace;
   text-transform: uppercase;
   padding: 15px;
+}
+.font-space {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .navbar .nav-item.active {
