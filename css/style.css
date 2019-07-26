@@ -966,15 +966,21 @@ blockquote {
 .outline {
   border-color: white;
   color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
   background-color: transparent;
 }
 .outline:hover {
   background-color: white;
   color: #36187F
+  font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .outline-action {
   border-color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
   background-color: white;
   color: #36187F
   
@@ -982,6 +988,8 @@ blockquote {
 .outline-action:hover {
   border-color: white;
   color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
   background-color: transparent;
 }
 .button-wrapper .button-inline {
