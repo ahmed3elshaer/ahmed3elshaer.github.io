@@ -972,7 +972,7 @@ blockquote {
 }
 .outline:hover {
   background-color: white;
-  color: #36187F
+  color: #36187F;
   font-weight: 400;
   letter-spacing: 1px;
 }
