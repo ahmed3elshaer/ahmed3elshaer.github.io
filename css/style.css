@@ -972,3 +972,19 @@ blockquote {
   background-color: white;
   color: #36187F
 }
+
+.outline-action {
+  border-color: white;
+  background-color: white;
+  color: #36187F
+  
+}
+.outline-action:hover {
+  border-color: white;
+  color: white;
+  background-color: transparent;
+}
+.button-wrapper .button-inline {
+margin: 0 8px;
+display: inline-block;
+}
