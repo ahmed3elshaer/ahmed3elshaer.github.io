@@ -934,6 +934,7 @@ blockquote {
 }
 .portfolio{
   display: block;
+  max-height: 350px;
   max-width: 100%;
   height: auto;
   border: 0;
